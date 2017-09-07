@@ -1,0 +1,41 @@
+.top-banner {
+	width: 80%;
+	margin: 1em auto;
+	.top-inner {
+		.logo-main {
+			width: 15%;
+			float: left;
+			padding: 1em 3em 1em 0;
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+		.social-right{
+			float: right;
+			max-width: 400px;
+			padding: 1em 0 1em 3em;
+			p > a {
+				font-family: $titles;
+			}
+			text-align: right;
+
+			li {
+				display: inline;
+				list-style: none;
+				line-height: 50px;
+				
+				.fa {
+					color: $blackbird;
+					&:hover {
+						color: $hover;
+					}
+				}
+
+			}
+		}
+	}
+}
+
+
+

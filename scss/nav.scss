@@ -1,0 +1,108 @@
+
+
+
+.menu-header-menu-container{
+	ul#menu-header-menu {
+		border-top: 1px dotted $blackbird;
+		border-bottom: 1px dotted $blackbird;
+		list-style: none;
+		// text-align: left;
+		position: relative;
+		margin: 0px;
+		 line-height: 50px;
+		li {
+			display: inline;
+			margin-right: 0.5em;
+			position: relative;
+			&:after {
+				
+			    content: "";
+			    width: 3px;
+			    height: 5px;
+			    background: transparent url('http://www.mountargusparish.ie/wp-content/plugins/go-newsletter/images/close.png');
+			}
+
+			a{
+				color: $blackbird;
+				font-family: $titles;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-size: 1.3em;
+				letter-spacing: 0.05em;
+				&:hover{
+					color: $hover; 	
+				}
+
+			}
+			ul.sub-menu {
+				display: none;
+				position: absolute; 
+				float: none; 
+				width: 200px; 
+				padding: 0; 
+				left: 0;
+				margin: 0px;
+    			// text-align: left;
+    			background-color: grey;
+    			margin-top: -0.5em;
+    			z-index: 9999;
+				li {
+					display:none; 
+					margin: 0; 
+					padding: 0;
+					 
+					a {
+						color: white;
+						padding: 1em;
+
+					}
+					ul.sub-menu {
+						display: none;
+						position: absolute; 
+						float: none; 
+						width: 200px; 
+						padding: 0; 
+						left: 0;
+						margin: 0px;
+		    			text-align: left;
+		    		}
+		    		&:hover {
+						ul.sub-menu{
+							display: block;
+							 > li {
+								display: block;
+								margin-left: 1.5em;
+							}
+						}
+					}
+				}
+			}
+			&:hover {
+				ul.sub-menu{
+					display: block;
+					li {
+						display: block;
+					}
+				}
+			}
+			
+		}
+	}
+
+
+}
+
+
+a.current {
+	border-bottom: 1px dotted; 
+	color: $hover !important;
+}
+.navBG {
+	background: $blackbird;
+	li a {
+		
+			color: white !important ;
+
+	}
+
+}

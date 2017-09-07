@@ -1,0 +1,38 @@
+//landing page
+
+
+// .grid{
+// 	background: $lightBG;
+// 	float:left;
+// 	margin: 2em auto;
+
+// 	.grid-item{
+// 		width: 200px;
+// 		height: 200px;
+// 		overflow: hidden;
+
+// 		img {
+// 			max-width: 100%;
+// 			height: auto;
+// 			    margin: auto; 
+    
+
+
+// 		}
+// 	}
+// }
+
+
+
+.grid {
+	width: 250px;
+	height: 250px;
+}
+.grid-item {
+  float: left;
+  width: 250px;
+  height: 250px;
+  background: #e6e5e4;
+  border: 2px solid #b6b5b4;
+}
+

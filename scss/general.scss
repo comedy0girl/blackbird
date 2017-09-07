@@ -1,0 +1,36 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: $shadow;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+}
+
+p{
+	letter-spacing: 0.05em;
+	font-family: $paragraph;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+}
+a {
+	color: $blackbird;
+	&:hover {
+		color: $hover;
+	}
+}
+
+// span.arrow {
+// 	background-image: url('../assets/img/blackArrow.png');
+// 	repeat: no-repeat;
+// 	height: 10px;
+// 	width: 100%;
+// }
+
+
+.divider {
+	img {
+		max-width: 50%;
+		opacity: 0.8;
+	}
+}

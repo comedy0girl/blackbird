@@ -1,0 +1,52 @@
+.project-inner{
+	margin: 2em;
+	border-bottom: 1px dotted;
+	.project-main-image img {
+		max-width: 100%;
+		height: auto;
+		padding-bottom: 1.5em;
+	}
+}
+
+.content-inner{
+	h1{
+		text-align: center;
+	}
+	p{
+		padding: 3em;
+		text-align: left;
+	}
+}
+
+
+.portfolio-gallery {
+	.gallery {
+		margin-left: 2em;
+	}
+	ul {
+		li {
+			list-style: none;
+			float: left;
+			padding: 0.12em;
+			&:hover {
+				opacity: 0.5;
+			}
+		}
+	}
+}
+
+.grid {
+	.grid-item {
+		
+		float: left;
+		img{
+			max-width: 100%;
+			height: auto;
+		}
+	}
+}
+
+
+
+
+

@@ -1,0 +1,43 @@
+footer.twelve.columns.footer {
+	background-color: $blackbird;
+	
+	
+	.social-media {
+	
+		text-align: center;
+		li{
+			padding: 2em 1em;
+			list-style: none;
+			display: inline;
+			color: white;
+		}
+	}
+	p.copyright {
+		color: white;
+		font-family: $titles;
+		text-align: left;
+		padding-left: 0.5em;
+		margin: 0;
+	}
+	.nav.nav--footer {
+		text-align: center;
+		ul {
+			li {
+				display: inline;
+				list-style: none;
+				margin: 0 0.5em;
+				a{
+					color: white;
+					font-family: $titles;
+					text-decoration: none;
+					font-size: 1.3em;
+					letter-spacing: 0.05em;
+					&:hover{
+						color: $hover; 	
+					}
+				}
+			}
+		}
+
+	}
+}
