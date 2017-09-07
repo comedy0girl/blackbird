@@ -18,6 +18,9 @@ textarea {
     font-family: $titles;
     width: 50%;
     float: left;
+    &:focus {
+        border: 1px solid white;
+    }
 
 }
 #name{
@@ -45,6 +48,10 @@ label {
     border-bottom: 1px dotted;
     border-radius: 0;
     font-family: $titles;
+    &:hover {
+        background-color: $blackbird;
+        color: white;
+    }
 
  }
 

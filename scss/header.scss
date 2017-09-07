@@ -6,9 +6,13 @@
 			width: 15%;
 			float: left;
 			padding: 1em 3em 1em 0;
+				a {
+					border-bottom: none !important;
+				}
 			img {
 				max-width: 100%;
 				height: auto;
+
 			}
 		}
 		.social-right{
