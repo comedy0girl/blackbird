@@ -25,7 +25,10 @@
 .hero-container {
 	margin-bottom: 2em;
 	height: 600px;
-	 width: 1903px;
+	
+	 .row.hero-navigation {
+	 	max-width: 100%;
+	 }
 	.banner{
 		background: rgb(46, 46, 46);
 	    padding: 0px;

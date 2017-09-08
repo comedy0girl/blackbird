@@ -18,8 +18,15 @@
  		.content-inner {
  			width: 100%;
  		}
- 	}  
+ 	}
+ 	.one-half.column.contact-box,
+.one-half.column.instagram-box {
+	width: 100%;
+	height: auto;
+}  
 }
+
+
 
 
 @media only screen and (max-width : 920px) {

@@ -35,7 +35,7 @@ get_header('hero'); ?>
            
         </div>
     </div>
-    <div class="row twelve columns contact-and-follow">
+   <!--  <div class="row twelve columns contact-and-follow">
         <div class="one-half column contact-box">
                 <h5>Contact Us</h5><?php
             include (TEMPLATEPATH . '/template-parts/contact-form.php'); ?>
@@ -49,7 +49,7 @@ get_header('hero'); ?>
         </div>
 
     </div>
-
+ -->
 </div>
 
 <?php get_footer(); ?>
