@@ -4,6 +4,7 @@
   h2{
     font-size: 2em;
     margin: 0;
+    margin-bottom: 1em;
   }
   .divider img{
     opacity: 0.8;
@@ -49,4 +50,17 @@
         }
       }
     }
+}
+
+.link {
+  .moreLink {
+    width: 10%;
+    margin: 0 auto;
+  }
+  text-align: center;
+  font-family: $shadow;
+  text-transform: uppercase;
+  margin: 1em;
+  padding: 1em;
+ 
 }

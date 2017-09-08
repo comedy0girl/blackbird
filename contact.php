@@ -7,7 +7,7 @@ get_header(); ?>
 <div class="site-container">
 
     <div class="twelve columns content">
-        <div class="offset-by-one ten columns content-inner">
+        <div class="offset-by-two eight columns content-inner">
              <?php if ( have_posts() ) : 
                 while ( have_posts() ) : 
                         the_post(); 
@@ -15,10 +15,18 @@ get_header(); ?>
                  endwhile; else : ?>
                 <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
             <?php endif; ?>
-        </div><?php
+        </div>
 
-            include (TEMPLATEPATH . '/template-parts/map.php');
-            include (TEMPLATEPATH . '/template-parts/contact-form.php'); ?>
+        <div class="row offset-by-two eight columns "><?php
+          include (TEMPLATEPATH . '/template-parts/contact-form.php'); ?>
+        </div>    
+
+
+     <div class="row twelve columns"><?php
+            include (TEMPLATEPATH . '/template-parts/map.php'); ?>
+        </div> 
+           
+     
     </div>
 
 </div>

@@ -36,3 +36,41 @@
   border: 2px solid #b6b5b4;
 }
 
+
+
+.gallery br {
+    display: none
+}
+
+
+dl.gallery-item {
+    margin-bottom: 10px;
+    float: left;
+}
+
+.gallery-item {
+    z-index: 1;
+    position: relative;
+    height: 154px;
+    width: 154px;
+    margin: 10px;
+}
+
+.gallery-item:hover dt.gallery-icon.landscape,
+.gallery-item:hover dt.gallery-icon.portrait {
+    opacity: .5
+}
+
+
+
+dt.gallery-icon.landscape,
+dt.gallery-icon.portrait {
+    height: 154px!important;
+    width: 154px!important;
+    border: 1px solid #fff;
+    margin-bottom: 5px
+}
+
+img {
+    height: auto
+}

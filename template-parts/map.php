@@ -1,3 +1,2 @@
-<div class="row offset-by-two eight columns contact-map"><?php 
-	echo do_shortcode('[wpgmza id="1"]'); ?>
+<div class="contact-map"><?php echo do_shortcode("[huge_it_maps id='2']"); ?>
 </div>

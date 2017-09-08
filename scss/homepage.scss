@@ -3,7 +3,7 @@
 }
 
 .contact-and-follow{
-  margin-bottom: 3em;
+  margin: 3em 0;
   .contact-box, .instagram-box {
     width: 50%; 
     float: left;
@@ -18,26 +18,26 @@
 
     }
 
-    .headerSpan span:before, 
-    .headerSpan span:after {
-        content: " ";
-        position: absolute;
-        height: 11px;
-        border-bottom: 1px solid #5AA0A0;
-        top: 0;
-        width: 4%;
+    // .headerSpan span:before, 
+    // .headerSpan span:after {
+    //     content: " ";
+    //     position: absolute;
+    //     height: 11px;
+    //     border-bottom: 1px solid #5AA0A0;
+    //     top: 0;
+    //     width: 4%;
       
-    }
-     .headerSpan span:before {
-        margin-right: 10px;
-        right: 55%;
-        margin-right: 15px;
-     }
-     .headerSpan span:before {
-        margin-left: 10px;
-        left: 55%;
-        margin-left: 15px;
-     }
+    // }
+    //  .headerSpan span:before {
+    //     margin-right: 10px;
+    //     right: 55%;
+    //     margin-right: 15px;
+    //  }
+    //  .headerSpan span:before {
+    //     margin-left: 10px;
+    //     left: 55%;
+    //     margin-left: 15px;
+    //  }
 
   }
   .contact-box {

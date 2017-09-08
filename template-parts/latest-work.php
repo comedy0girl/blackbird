@@ -1,8 +1,8 @@
 <div class="row twelve columns latest">
 	<h2>Latest Work</h2>
-	<div class="divider">
+<!-- 	<div class="divider">
 		<img src="<?php bloginfo('template_url') ?>/assets/img/divider.svg">
-	</div>
+	</div> -->
 
 	<div class="latest-inner"><?php
 			$custom_loop = new WP_Query(array( 'posts_per_page' => 4, 'post_type' => 'portfolio' ));
@@ -21,5 +21,6 @@
 </div>
 
 <div class="row twelve columns link">
-		<a href="/portfolio">View more<img src="<?php bloginfo('template_url') ?>/assets/img/blkArrowRight.png"></a>
+		<div class="moreLink"><a href="/portfolio">View more</a></div>
+		
 </div>

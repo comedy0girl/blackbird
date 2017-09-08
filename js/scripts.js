@@ -72,6 +72,21 @@ $('.grid').isotope({
 
 });
 
+$("li#clickme").click(function() {
+        if ($(".mobile_menu_wrapper").hasClass("show")) {
+            $(".mobile_menu_wrapper").removeClass("show").fadeOut('slow');
+        } else {
+            $(".mobile_menu_wrapper").addClass("show").addClass('mask').fadeIn('slow');
+            $(".body").addClass("mask");
+        }
+    });
+   
+
+
+    $("#close_mobile_menu").click(function() {
+            $(".mobile_menu_wrapper").removeClass("show").fadeIn('slow');      
+    });
+
 
 
 $(window).scroll(function() {    
